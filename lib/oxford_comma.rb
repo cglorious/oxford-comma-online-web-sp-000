@@ -10,5 +10,5 @@ def oxford_comma(array)
   string
 end
 
-animals = ["cats", "dogs", "birds"]
+animals = ["cats", "dogs", "gerbals", "birds"]
 oxford_comma(animals)
