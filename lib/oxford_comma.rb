@@ -1,7 +1,7 @@
 def oxford_comma(array)
   string = ""
   array.each do |element|
-    until element == array[-2]
+    until element == array[-1]
       string << element + ", "
     end
   end
