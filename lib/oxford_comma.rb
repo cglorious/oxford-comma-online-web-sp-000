@@ -1,12 +1,12 @@
 def oxford_comma(array)
   string = ""
   array.each do |element|
-    until element == array[-1]
+    #until element == array[-1]
       string << element + ", "
-    end
+    #end
   end
-  last_element = array.to_s
-  string << ", and" + last_element
+  #last_element = array.to_s
+  #string << ", and" + last_element
   string
 end
 
