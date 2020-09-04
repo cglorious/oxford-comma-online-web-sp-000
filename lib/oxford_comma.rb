@@ -20,7 +20,7 @@ oxford_comma(animals)
 
 def one_el(array)
   if array.length == 1
-    array.to_s
+    array.join
   end
 end
 
