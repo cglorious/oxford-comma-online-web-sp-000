@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  string = ""
   end_of_string = "and " + array.pop
+  string = ""
   array.each do |element|
       string << element + ", "
   end
