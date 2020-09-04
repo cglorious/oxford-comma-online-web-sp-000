@@ -17,3 +17,17 @@ end
 
 animals = ["cats", "dogs", "gerbals", "birds"]
 oxford_comma(animals)
+
+def one_el(array)
+
+end
+
+drink = ["matcha"]
+one_el()
+
+def two_el(array)
+
+end
+
+
+two_el()
