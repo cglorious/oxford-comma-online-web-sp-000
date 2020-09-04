@@ -2,7 +2,7 @@ def oxford_comma(array)
   string = ""
 
   if array.length == 1
-    
+    array.to_s
   else
     end_of_string = "and " + array.pop
     array.each do |element|
