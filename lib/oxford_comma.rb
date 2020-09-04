@@ -12,11 +12,3 @@ def oxford_comma(array)
     string + end_of_string
   end
 end
-
-#drinks = ["matcha"]
-#hobbies = ["sing", "code"]
-#animals = ["cats", "dogs", "gerbals", "birds"]
-
-#oxford_comma(drinks)
-#oxford_comma(hobbies)
-#oxford_comma(animals)
