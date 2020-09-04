@@ -7,4 +7,4 @@ def oxford_comma(array)
 end
 
 animals = ["cats", "dogs"]
-oxford_comma(array)
+oxford_comma(animals)
