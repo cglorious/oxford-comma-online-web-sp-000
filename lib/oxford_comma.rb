@@ -13,10 +13,10 @@ def oxford_comma(array)
   end
 end
 
-drinks = ["matcha"]
-hobbies = ["sing", "code"]
-animals = ["cats", "dogs", "gerbals", "birds"]
+#drinks = ["matcha"]
+#hobbies = ["sing", "code"]
+#animals = ["cats", "dogs", "gerbals", "birds"]
 
-oxford_comma(drinks)
-oxford_comma(hobbies)
-oxford_comma(animals)
+#oxford_comma(drinks)
+#oxford_comma(hobbies)
+#oxford_comma(animals)
