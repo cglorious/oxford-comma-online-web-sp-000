@@ -2,9 +2,9 @@ def oxford_comma(array)
   string = ""
 
   if array.length == 1
-    array.to_s
+    array.join
   elsif array.length == 2
-    array[0] + "and " + array[1]
+    array.join(" and ")
   else
     end_of_string = "and " + array.pop
     array.each do |element|
