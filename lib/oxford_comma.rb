@@ -1,7 +1,7 @@
 def oxford_comma(array)
   string = ""
   array.each do |element|
-    string.join(", ")
+    string << element + ", "
   end
   string
 end
