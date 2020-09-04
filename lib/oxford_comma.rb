@@ -6,5 +6,5 @@ def oxford_comma(array)
   string
 end
 
-#animals = ["cats", "dogs"]
-#oxford_comma(array)
+animals = ["cats", "dogs"]
+oxford_comma(array)
