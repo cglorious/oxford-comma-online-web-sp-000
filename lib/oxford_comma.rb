@@ -28,7 +28,9 @@ drinks = ["matcha"]
 one_el(drinks)
 
 def two_el(array)
-
+  if array.length == 2
+    array.join(" and ")
+  end
 end
 
 hobbbies = ["sing", "code"]
