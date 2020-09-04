@@ -5,7 +5,7 @@ def oxford_comma(array)
   array.each do |element|
       string << element + ", "
   end
-  string
+  string + end_of_string
 end
 
 animals = ["cats", "dogs", "gerbals", "birds"]
