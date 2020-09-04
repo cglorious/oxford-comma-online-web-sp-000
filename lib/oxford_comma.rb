@@ -1,12 +1,16 @@
 def oxford_comma(array)
-  end_of_string = "and " + array.pop
   string = ""
 
-  array.each do |element|
-      string << element + ", "
+  if array.length == 1
+    
+  else
+    end_of_string = "and " + array.pop
+    array.each do |element|
+        string << element + ", "
+    end
+    string + end_of_string
   end
 
-  string + end_of_string
 end
 
 animals = ["cats", "dogs", "gerbals", "birds"]
