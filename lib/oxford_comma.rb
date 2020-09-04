@@ -22,12 +22,12 @@ def one_el(array)
 
 end
 
-drink = ["matcha"]
-one_el()
+drinks = ["matcha"]
+one_el(drinks)
 
 def two_el(array)
 
 end
 
-
-two_el()
+hobbbies = ["sing", "code"]
+two_el(hobbies)
