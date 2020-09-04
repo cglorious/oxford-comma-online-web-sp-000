@@ -11,7 +11,6 @@ def oxford_comma(array)
     end
     string + end_of_string
   end
-
 end
 
 drinks = ["matcha"]
