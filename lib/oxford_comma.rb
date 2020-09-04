@@ -19,7 +19,7 @@ animals = ["cats", "dogs", "gerbals", "birds"]
 oxford_comma(animals)
 
 def one_el(array)
-
+  array.length
 end
 
 drinks = ["matcha"]
