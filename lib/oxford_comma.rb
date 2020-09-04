@@ -33,5 +33,5 @@ def two_el(array)
   end
 end
 
-hobbbies = ["sing", "code"]
+hobbies = ["sing", "code"]
 two_el(hobbies)
